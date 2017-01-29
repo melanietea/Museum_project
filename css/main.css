@@ -129,6 +129,8 @@ footer {
   and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
       font-size: 36px;
+      text-align: center;
+      display: block;
     }
     ul.topmenu {
       display: block;
