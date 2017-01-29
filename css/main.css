@@ -77,10 +77,13 @@ h2 {
   font-weight: 600;
 }
 p {
-  background-color: #2D2A2B;
   font-weight: lighter;
-  padding: 25px 400px 25px 400px;
-  margin-top: -5px;
+  text-align: center;
+}
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
 }
 ul {
   text-align: center;
@@ -100,6 +103,7 @@ img.featureimage {
 }
 footer {
   background-color: #000000;
+  text-align: center;
 }
 
 
@@ -119,9 +123,20 @@ footer {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 600px) {
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    h1 {
+      font-size: 36px;
+    }
+    ul.topmenu {
+      display: block;
+      padding: 5px;
+      font-size: 10px;
+    }
+  }
 
-}
 
 @media only screen and (min-width: 600px) {
 
