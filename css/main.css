@@ -114,22 +114,22 @@ ul.img-list {
 }
 ul.img-list li {
   display: inline-block;
-  height: 400px;
+  height: 350px;
   margin: 0 1em 1em 0;
   position: relative;
-  width: 500px;
+  width: 470px;
 }
 span.text-content {
   background: rgba(0,0,0,0.5);
   color: white;
-  font-size: 30px;
+  font-size: 80px;
   cursor: pointer;
   display: table;
-  height: 400px;
+  height: 350px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 500px;
+  width: 520px;
   opacity: 0;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
