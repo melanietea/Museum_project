@@ -110,8 +110,8 @@ ul.img-list {
   margin: 0;
   padding: 0;
   text-align: center;
-  display: block;
-  width: 700px;
+  max-width: 1180px;
+margin: 0 auto;
 }
 ul.img-list li {
   display: inline-block;
