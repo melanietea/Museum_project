@@ -105,13 +105,12 @@ footer {
   background-color: #000000;
   text-align: center;
 }
+<<<<<<< HEAD
 ul.img-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-align: center;
-  max-width: 1180px;
-margin: 0 auto;
 }
 ul.img-list li {
   display: inline-block;
@@ -147,6 +146,8 @@ ul.img-list li:hover span.text-content {
   opacity: 1;
 }
 =======
+=======
+>>>>>>> parent of 06be0d9... Hover Effects + Text
 
 
 
